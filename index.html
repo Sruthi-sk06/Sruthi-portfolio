@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sruthi S K | B.Tech IT Student & Aspiring Software Developer</title>
+<meta name="description" content="Portfolio of Sruthi S K, B.Tech Information Technology student at Rajalakshmi Engineering College, Chennai, seeking software placements and internships.">
+<meta name="author" content="Sruthi S K">
+<meta property="og:title" content="Sruthi S K | Portfolio">
+<meta property="og:description" content="Web development, data analytics and accessible technology projects by Sruthi S K.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0a0e24;--bg2:#10163a;--text:#e9ebfa;--muted:#aab0d4;--accent:#a78bfa;--accent2:#7c5cff;--glass:rgba(255,255,255,.06);--line:rgba(167,139,250,.22);--nav:rgba(10,14,36,.75);--btn-text:#0a0e24;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(76px + env(safe-area-inset-top,0px))}
+body{margin:0;font-family:Inter,system-ui,sans-serif;line-height:1.65;color:var(--text);background:radial-gradient(900px 500px at 85% -5%,rgba(124,92,255,.28),transparent 60%),radial-gradient(700px 500px at -5% 35%,rgba(59,76,190,.25),transparent 60%),var(--bg);background-attachment:fixed}
+h1,h2,h3{font-family:Sora,Inter,sans-serif;line-height:1.2;margin:0}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:6px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--accent);color:var(--btn-text);padding:8px 14px;border-radius:8px;z-index:100}.skip:focus{left:8px}
+.wrap{max-width:1100px;margin:0 auto;padding:0 22px}
+section{padding:84px 0}
+h2{font-size:clamp(1.7rem,4vw,2.4rem);margin-bottom:10px}
+.sub{color:var(--muted);margin:0 0 36px;max-width:60ch}
+.glass{background:var(--glass);border:1px solid var(--line);border-radius:18px;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
+header{position:fixed;top:0;left:0;right:0;z-index:50;background:var(--nav);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top,0px)}
+nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{font-family:Sora,sans-serif;font-weight:800;text-decoration:none;font-size:1.15rem}
+.links{display:flex;gap:4px;list-style:none;margin:0;padding:0}
+.links a{display:block;padding:8px 11px;border-radius:8px;text-decoration:none;font-size:.9rem;color:var(--muted);transition:.2s}
+.links a:hover,.links a.on{color:var(--text);background:var(--glass)}
+.burger{display:none;background:none;border:1px solid var(--line);color:var(--text);border-radius:8px;padding:8px 12px;font-size:1rem;cursor:pointer}
+@media(max-width:900px){.burger{display:block}.links{position:absolute;top:100%;left:0;right:0;flex-direction:column;background:var(--bg2);padding:10px 22px 18px;display:none;border-bottom:1px solid var(--line)}.links.open{display:flex}}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:11px 20px;border-radius:12px;border:1px solid var(--line);background:var(--glass);color:var(--text);font:600 .92rem Inter,sans-serif;text-decoration:none;cursor:pointer;transition:transform .2s,box-shadow .2s,background .2s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(124,92,255,.3)}
+.btn.primary{background:linear-gradient(135deg,var(--accent),var(--accent2));color:var(--btn-text);border-color:transparent}
+.hero{min-height:100vh;display:flex;align-items:center;padding-top:110px}
+.hero h1{font-size:clamp(2.6rem,8vw,5rem);font-weight:800;letter-spacing:-.02em;background:linear-gradient(120deg,var(--text) 30%,var(--accent));-webkit-background-clip:text;background-clip:text;color:transparent;animation:rise .9s ease both}
+.tag{font:600 clamp(1.05rem,2.4vw,1.4rem) Sora,sans-serif;color:var(--accent);margin:14px 0 18px;animation:rise .9s .15s ease both}
+.hero p{max-width:58ch;color:var(--muted);animation:rise .9s .3s ease both}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px;animation:rise .9s .45s ease both}
+@keyframes rise{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
+.grid{display:grid;gap:20px}
+.g2{grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr))}.g3{grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))}
+.card{padding:26px;transition:transform .25s,border-color .25s,box-shadow .25s}
+.card:hover{transform:translateY(-5px);border-color:var(--accent);box-shadow:0 14px 36px rgba(124,92,255,.22)}
+.ico{font-size:2rem;width:56px;height:56px;display:grid;place-items:center;border-radius:14px;background:linear-gradient(135deg,rgba(167,139,250,.25),rgba(124,92,255,.1));margin-bottom:14px}
+.card h3{font-size:1.15rem;margin-bottom:8px}.card p{color:var(--muted);margin:0 0 12px}
+.badges{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px;padding:0;list-style:none}
+.badge{font-size:.78rem;padding:4px 11px;border-radius:999px;background:rgba(124,92,255,.18);border:1px solid var(--line);color:var(--text)}
+.status{display:inline-block;font-size:.75rem;font-weight:600;padding:3px 10px;border-radius:999px;background:var(--accent);color:var(--btn-text);margin-left:6px;vertical-align:middle}
+.feat{margin:0 0 18px;padding-left:18px;color:var(--muted)}
+.proj{display:flex;flex-direction:column}.proj .btn{margin-top:auto;align-self:flex-start}
+.skill h3{font-size:1rem;margin-bottom:12px;color:var(--accent)}
+.tl{border-left:2px solid var(--line);padding-left:24px;display:grid;gap:22px}
+.tl .card{position:relative}.tl .card::before{content:"";position:absolute;left:-33px;top:30px;width:14px;height:14px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px var(--bg)}
+.meta{color:var(--accent);font-size:.88rem;font-weight:600;margin-bottom:10px}
+.cert{display:flex;gap:14px;align-items:center;padding:20px}.cert .ico{margin:0;flex:none;width:48px;height:48px;font-size:1.5rem}.cert h3{font-size:1rem}
+.edu strong{font-family:Sora,sans-serif;font-size:1.6rem;color:var(--accent)}
+.contact-list{list-style:none;margin:0;padding:0;display:grid;gap:14px;overflow-wrap:anywhere}
+.contact-list span{display:block;color:var(--muted);font-size:.82rem}
+.contact-list a{text-decoration:none;font-weight:500}.contact-list a:hover{color:var(--accent)}
+form{display:grid;gap:16px;padding:26px}
+label{font-size:.9rem;font-weight:500}
+input,textarea{width:100%;margin-top:6px;padding:12px 14px;border-radius:10px;border:1px solid var(--line);background:rgba(127,127,170,.12);color:var(--text);font:inherit}
+input[aria-invalid="true"],textarea[aria-invalid="true"]{border-color:#ff7a90}
+.err{color:#ff8da0;font-size:.82rem;min-height:1.1em;display:block}
+#status{padding:12px 14px;border-radius:10px;font-size:.9rem}
+#status.ok{background:rgba(70,200,140,.15);border:1px solid rgba(70,200,140,.5)}#status.bad{background:rgba(255,100,130,.15);border:1px solid rgba(255,120,140,.5)}
+footer{border-top:1px solid var(--line);padding:34px 0;text-align:center;color:var(--muted);font-size:.9rem}
+footer nav{justify-content:center;gap:18px;flex-wrap:wrap;height:auto;margin-bottom:12px}
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .7s,transform .7s}.reveal.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header><div class="wrap"><nav aria-label="Main navigation">
+<a class="logo" href="#home">Sruthi S K</a>
+<button class="burger" aria-expanded="false" aria-controls="menu" id="burger">Menu</button>
+<ul class="links" id="menu">
+<li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#skills">Skills</a></li><li><a href="#projects">Projects</a></li><li><a href="#experience">Internships</a></li><li><a href="#certifications">Certifications</a></li><li><a href="#education">Education</a></li><li><a href="#resume">Resume</a></li><li><a href="#contact">Contact</a></li>
+</ul></nav></div></header>
+
+<main id="main">
+<section class="hero" id="home"><div class="wrap">
+<h1>Sruthi S K</h1>
+<div class="tag">Aspiring software developer building accessible, data-driven solutions</div>
+<p>B.Tech Information Technology student at Rajalakshmi Engineering College, Chennai, with hands-on experience in web development, data analytics and cybersecurity product management. I’m looking for software placements and internships.</p>
+<div class="cta">
+<a class="btn primary" href="#projects">Explore Projects</a>
+<a class="btn" href="https://drive.google.com/drive/folders/1ifeGRPdbNRg-xRc0yE432L87hSvZ-UmL?usp=drive_link" target="_blank" rel="noopener noreferrer">View Resume</a>
+<a class="btn" href="https://github.com/Sruthi-sk06" target="_blank" rel="noopener noreferrer">GitHub</a>
+<a class="btn" href="https://www.linkedin.com/in/sksruthi46/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+<a class="btn" href="#contact">Contact Me</a>
+</div></div></section>
+
+<section id="about"><div class="wrap reveal">
+<h2>About me</h2>
+<p class="sub">Who I am and what I’m working towards.</p>
+<div class="glass card"><p style="margin:0;color:var(--text)">I’m a B.Tech Information Technology student (2023–2027) with hands-on experience in web development, AI/ML projects, enterprise technology and cybersecurity product management. I work with Java, JavaScript, SQL, React and MongoDB, and I have a working knowledge of data structures, software development and AI technologies. I enjoy solving technical problems and building practical technology solutions. Alongside my studies I take part in technical events, project presentations and Enactus/NSS volunteer activities.</p></div>
+</div></section>
+
+<section id="skills"><div class="wrap reveal">
+<h2>Technical skills</h2>
+<p class="sub">The languages, frameworks and tools I use.</p>
+<div class="grid g3" id="skillGrid"></div>
+</div></section>
+
+<section id="projects"><div class="wrap reveal">
+<h2>Projects</h2>
+<p class="sub">Four academic projects. Each links to its GitHub repository.</p>
+<div class="grid g2" id="projGrid"></div>
+</div></section>
+
+<section id="experience"><div class="wrap reveal">
+<h2>Internship experience</h2>
+<p class="sub">Industry exposure in cybersecurity product management and web development.</p>
+<div class="tl">
+<article class="glass card"><div class="meta">Sep 2026 – Oct 2026</div><h3>Analyst Intern, Cybersecurity Product Management</h3><p style="margin-bottom:10px"><strong>Tata Communications</strong></p>
+<ul class="feat"><li>Contributing to a cybersecurity migration project for the organisation.</li><li>Performing data cleaning, standardisation and regularisation of data.</li><li>Working with enterprise systems including CRM, ERP, billing, inventory, ITSM and CMDB.</li></ul>
+<ul class="badges"><li class="badge">Data cleaning</li><li class="badge">CRM</li><li class="badge">ERP</li><li class="badge">ITSM</li><li class="badge">CMDB</li></ul></article>
+<article class="glass card"><h3>Web Development Intern</h3><p style="margin-bottom:10px"><strong>Code Bind Technologies</strong></p>
+<p>Hands-on web development internship.</p>
+<ul class="badges"><li class="badge">Web development</li></ul></article>
+</div></div></section>
+
+<section id="certifications"><div class="wrap reveal">
+<h2>Certifications</h2>
+<p class="sub">Courses and programmes I’ve completed.</p>
+<div class="grid g2" id="certGrid"></div>
+</div></section>
+
+<section id="education"><div class="wrap reveal">
+<h2>Education</h2>
+<p class="sub">My academic background.</p>
+<div class="grid g2">
+<article class="glass card edu"><div class="ico" aria-hidden="true">🎓</div><h3>B.Tech, Information Technology</h3><p>Rajalakshmi Engineering College, Chennai<br>2023 – 2027</p><strong>CGPA 7.75</strong><span style="color:var(--muted)"> / 10</span></article>
+<article class="glass card edu"><div class="ico" aria-hidden="true">📘</div><h3>Class XII (Higher Secondary)</h3><p>Swamy’s School<br>2023</p><strong>78.66%</strong></article>
+</div></div></section>
+
+<section id="resume"><div class="wrap reveal">
+<h2>Resume</h2>
+<p class="sub">Open my resume on Google Drive.</p>
+<div class="glass card" style="display:flex;flex-wrap:wrap;gap:12px">
+<a class="btn primary" href="https://drive.google.com/drive/folders/1ifeGRPdbNRg-xRc0yE432L87hSvZ-UmL?usp=drive_link" target="_blank" rel="noopener noreferrer">View Resume</a>
+<a class="btn" href="https://drive.google.com/drive/folders/1ifeGRPdbNRg-xRc0yE432L87hSvZ-UmL?usp=drive_link" target="_blank" rel="noopener noreferrer">Download Resume</a>
+</div></div></section>
+
+<section id="contact"><div class="wrap reveal">
+<h2>Contact</h2>
+<p class="sub">I’m always eager to connect with professionals and explore opportunities to contribute, learn, and grow in software development.</p>
+<div class="grid">
+<div class="glass card"><ul class="contact-list">
+<li><span>Email</span><a href="mailto:sruthiskkumar@gmail.com">sruthiskkumar@gmail.com</a></li>
+<li><span>Phone</span><a href="tel:+919042717218">+91 9042717218</a></li>
+<li><span>LinkedIn</span><a href="https://www.linkedin.com/in/sksruthi46/" target="_blank" rel="noopener noreferrer">linkedin.com/in/sksruthi46</a></li>
+<li><span>GitHub</span><a href="https://github.com/Sruthi-sk06" target="_blank" rel="noopener noreferrer">github.com/Sruthi-sk06</a></li>
+</ul></div>
+</div>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+<nav aria-label="Footer"><a href="https://github.com/Sruthi-sk06" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://www.linkedin.com/in/sksruthi46/" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="mailto:sruthiskkumar@gmail.com">Email</a></nav>
+© <span id="yr">2026</span> Sruthi S K. All rights reserved.
+</div></footer>
+
+<script>
+const skills=[["Programming languages","💻",["Java","R","JavaScript"]],["Web development","🌐",["HTML","CSS","React"]],["Databases","🗄️",["SQL","MongoDB","MySQL"]],["Data analytics","📊",["R","R Shiny","Data cleaning","Statistical analysis","Data visualization"]],["Tools","🛠️",["Git","GitHub","VS Code","RStudio"]]];
+const projects=[
+{t:"Inclusive Learning Platform for Students with Disabilities",i:"♿",d:"An accessible learning platform designed to support students with disabilities through inclusive, user-friendly features and improved access to educational resources.",f:["Inclusive, user-friendly design","Improved access to educational resources"],b:["Web Development","Accessibility"],u:"https://github.com/Sruthi-sk06/Inclulearn/tree/main"},
+{t:"Network Configuration Backup and Version Management System (NMS)",i:"🖧",d:"A system that automates network configuration backups and keeps a version history.",f:["Automated configuration backups","Version history","Configuration tracking and recovery"],b:["Network Management","Backup","Version Control"],u:"https://github.com/Sruthi-sk06/Network-configuration-backup"},
+{t:"Workplace Attrition Risk Analysis using R and R Shiny",i:"📈",d:"Analysis of HR data to identify key factors behind employee attrition.",f:["Statistical analysis and visualization","Machine learning techniques to understand attrition patterns","Data-driven retention insights"],b:["R","R Shiny","Machine Learning","Data Analysis"],u:"https://github.com/Sruthi-sk06/Workplace-Attrition-Risk-Analysis/tree/main"},
+{t:"AR/VR Rehabilitation System for Stroke Patients",i:"🧠",d:"A low-cost rehabilitation system using webcam or smartphone-based pose estimation.",f:["MediaPipe pose estimation","Tracks body movements","Rehabilitation activities with adaptive difficulty"],b:["MediaPipe","Pose Estimation","Web / Smartphone"],u:"https://github.com/Sruthi-sk06/FYP",ongoing:true}];
+const certs=["Infosys Springboard","Anthropic AI Courses","SQL Essential Training","Advanced Algorithmic Thinking with Python"];
+const $=id=>document.getElementById(id);
+const li=a=>a.map(x=>`<li class="badge">${x}</li>`).join("");
+$("skillGrid").innerHTML=skills.map(s=>`<article class="glass card skill"><div class="ico" aria-hidden="true">${s[1]}</div><h3>${s[0]}</h3><ul class="badges" style="margin:0">${li(s[2])}</ul></article>`).join("");
+$("projGrid").innerHTML=projects.map(p=>`<article class="glass card proj"><div class="ico" aria-hidden="true">${p.i}</div><h3>${p.t}${p.ongoing?'<span class="status">Ongoing</span>':""}</h3><p>${p.d}</p><ul class="feat">${p.f.map(x=>`<li>${x}</li>`).join("")}</ul><ul class="badges">${li(p.b)}</ul><a class="btn primary" href="${p.u}" target="_blank" rel="noopener noreferrer" aria-label="View code for ${p.t} on GitHub">View Code</a></article>`).join("");
+$("certGrid").innerHTML=certs.map(c=>`<article class="glass card cert"><div class="ico" aria-hidden="true">🏅</div><h3>${c}</h3></article>`).join("");
+$("yr").textContent=new Date().getFullYear();
+const burger=$("burger"),menu=$("menu");
+burger.onclick=()=>{const o=menu.classList.toggle("open");burger.setAttribute("aria-expanded",o)};
+menu.querySelectorAll("a").forEach(a=>a.onclick=()=>{menu.classList.remove("open");burger.setAttribute("aria-expanded","false")});
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}}),{threshold:.08});
+document.querySelectorAll(".reveal").forEach(el=>io.observe(el));
+const secs=[...document.querySelectorAll("main section")],nav=[...menu.querySelectorAll("a")];
+addEventListener("scroll",()=>{let c=secs[0].id;secs.forEach(s=>{if(s.getBoundingClientRect().top<140)c=s.id});nav.forEach(a=>a.classList.toggle("on",a.getAttribute("href")==="#"+c))},{passive:true});
+</script>
+</body>
+</html>
